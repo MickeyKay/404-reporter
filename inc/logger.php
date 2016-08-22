@@ -16,7 +16,7 @@ function fof_reporter_maybe_log_404() {
 		return;
 	}
 
-	// Use server array to compile URL.
+	// Use server array to compile full URL.
 	$protocol = $_SERVER[HTTPS] ? 'https' : 'http';
 	$host     = $_SERVER[HTTP_HOST];
 	$path     = $_SERVER[REQUEST_URI];

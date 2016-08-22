@@ -12,8 +12,8 @@ function fof_reporter_register_post_types() {
 	$labels = array(
 		'name'                  => _x( '404\'s', 'Post Type General Name', '404-reporter' ),
 		'singular_name'         => _x( '404', 'Post Type Singular Name', '404-reporter' ),
-		'menu_name'             => __( '404', '404-reporter' ),
-		'name_admin_bar'        => __( '404', '404-reporter' ),
+		'menu_name'             => __( '404\'s', '404-reporter' ),
+		'name_admin_bar'        => __( '404\'s', '404-reporter' ),
 		'archives'              => __( 'Item Archives', '404-reporter' ),
 		'parent_item_colon'     => __( 'Parent Item:', '404-reporter' ),
 		'all_items'             => __( 'All Items', '404-reporter' ),

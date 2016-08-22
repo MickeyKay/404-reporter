@@ -14,5 +14,8 @@ define( 'FOF_REPORTER_URL', plugin_dir_url( __FILE__ ) );
 // Post types functionality.
 require FOF_REPORTER_PATH . 'inc/post-types.php';
 
+// Admin functionality
+require FOF_REPORTER_PATH . 'inc/admin.php';
+
 // Logging functionality
 require FOF_REPORTER_PATH . 'inc/logger.php';
